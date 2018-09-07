@@ -1,0 +1,15 @@
+<p>
+  block-a works!
+</p>
+
+<button (click)="showFn()">Show</button>
+
+
+<app-child-a *ngIf="show"></app-child-a>
+
+<h3>Array</h3>
+<button (click)="addInArray()">Add</button>
+<button (click)="replaceArray()">ReplaceArray</button>
+<div *ngFor="let item of array">
+  <app-child-a [data]="item"></app-child-a>
+</div>
