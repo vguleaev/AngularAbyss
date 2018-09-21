@@ -1,0 +1,11 @@
+<div class="block">
+  <h3>Block B</h3>
+  Data: {{ data | json }}
+  
+  <app-child-b [data]="data"></app-child-b>
+  
+  <button (click)="changeObject()">Change from B</button> 
+  
+  
+  <br/><br/>
+</div>

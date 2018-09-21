@@ -1,0 +1,13 @@
+<h1>Parent</h1>
+
+<app-block-a [data]="data"></app-block-a>
+<app-block-b [data]="data"></app-block-b>
+
+
+<button (click)="changeString()">Change String</button>
+<button (click)="changeArray()"> Change Array</button>
+<button (click)="changeObject()">Change Object</button>
+
+<br/><br/>
+
+Data: {{ data | json }}

@@ -1,0 +1,11 @@
+::ng-deep .block {
+  border: 1px slateblue solid;
+  padding: 10px;
+  margin: 10px;
+}
+
+::ng-deep .child {
+  border: 1px goldenrod solid;
+  padding: 5px;
+  margin: 5px;
+}
