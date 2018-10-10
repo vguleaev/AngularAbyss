@@ -1,0 +1,9 @@
+<h1>List of items:</h1>
+
+<div *ngFor="let item of items;  trackBy: trackItem">
+  Id: {{item.id}}  Name: {{item.name}}
+</div>
+
+<br/>
+<button (click)="addItem()">Add item</button>
+<button (click)="replaceList()">Replace List</button>
